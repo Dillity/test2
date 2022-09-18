@@ -1,0 +1,64 @@
+.mainContainer {
+    margin-top: 140px;
+}
+
+.title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.field {
+    width: 380px;
+    height: 54px;
+}
+
+.uploadField {
+    width: 380px;
+    height: 54px;
+    margin-top: 50px;
+}
+
+.placeholder {
+    border-bottom-left-radius: 0;
+    border-left-width: 0;
+    width: 380px;
+}
+
+.upload {
+    position: absolute;
+    width: 100px;
+    height: 56px;
+    padding: 0;
+    display: none;
+
+}
+
+/*.btn {*/
+/*    border: 2px solid gray;*/
+/*    background-color: white;*/
+/*    font-weight: bold;*/
+/*    border-radius: 4px 0 0 4px;*/
+/*}*/
+
+.radio {
+    width: 380px;
+}
+
+.btnSubmit {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 100px;
+    height: 34px;
+    border-radius: 80px;
+    border: 0;
+    background-color: #F4E041;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+

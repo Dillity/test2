@@ -1,0 +1,30 @@
+.mainContainer {
+    background-color: white;
+}
+.container {
+    padding: 0;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin: 13px 0 13px 10px;
+    width: 100px;
+    height: 34px;
+    background-color: #F4E041;
+    border: 0;
+    border-radius: 80px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+}
