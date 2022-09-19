@@ -21,7 +21,7 @@ const Users = (props) => {
             </Typography>
 
             <Grid container justifyContent="center"
-                  alignItems="center">
+                  alignItems="center" className={style.mainGrid}>
                 {props.users.map(user => (<SingleUser key={user.id} name={user.name} email={user.email} phone={user.phone} position={user.position} photo={user.photo} />))}
             </Grid>
 

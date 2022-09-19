@@ -36,12 +36,6 @@
 
 }
 
-/*.btn {*/
-/*    border: 2px solid gray;*/
-/*    background-color: white;*/
-/*    font-weight: bold;*/
-/*    border-radius: 4px 0 0 4px;*/
-/*}*/
 
 .radio {
     width: 380px;
@@ -62,3 +56,30 @@
     line-height: 26px;
 }
 
+@media screen and (max-width: 360px){
+    .field {
+        width: 328px;
+        height: 54px;
+    }
+
+    .uploadField {
+        width: 328px;
+        height: 54px;
+        margin-top: 50px;
+    }
+    .radio {
+        width: 328px;
+    }
+    .title {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        width: 328px;
+    }
+}
+
+.inProgress {
+    margin-top: 50px;
+}

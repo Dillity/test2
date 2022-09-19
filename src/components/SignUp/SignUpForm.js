@@ -43,7 +43,7 @@ const SignUpForm = (props) => {
                   values, errors, touched, handleChange, handleBlur, isValid,
                   handleSubmit, dirty, setFieldValue
               }) => (
-                  <Container className={style.container}>
+                  <div className={style.container}>
 
 <Grid container direction="column" justifyContent="center" alignItems="center">
                     <Grid item style={{marginTop: 50}}>
@@ -121,7 +121,7 @@ const SignUpForm = (props) => {
 
                         <Grid item>
                             {props.isFetching ?
-                                <CircularProgress /> :
+                                <CircularProgress className={style.inProgress} /> :
                             <button
                                 className={style.btnSubmit}
                                 type={"submit"}
@@ -133,7 +133,7 @@ const SignUpForm = (props) => {
 </Grid>
 
 
-                  </Container>
+                  </div>
             )}
         </Formik>
     );

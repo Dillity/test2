@@ -1,12 +1,9 @@
 import Header from "./components/Header/Header";
 import MainContent from "./components/MainContent/MainContent";
 
-import {Container} from "@mui/material";
-
 import {UsersContainer} from "./components/Users/UsersContainer";
 import {SignUpContainer} from "./components/SignUp/SignUpContainer";
 import {SuccessContainer} from "./components/Success/SuccessContainer";
-
 
 
 const App = () => {
@@ -14,12 +11,12 @@ const App = () => {
         <>
             <Header/>
 
-            <Container>
+            <div>
                 <MainContent/>
                 <UsersContainer/>
                 <SignUpContainer />
                 <SuccessContainer/>
-            </Container>
+            </div>
         </>
     )
 }

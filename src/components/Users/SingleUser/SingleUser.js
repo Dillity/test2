@@ -1,5 +1,5 @@
 import React, {Fragment, useEffect, useState} from "react";
-import {Card, Grid, Typography} from "@mui/material";
+import {Card, Grid, Tooltip, Typography} from "@mui/material";
 
 import altImg from "../../../assets/photo-cover.svg";
 import style from "./SingleUser.module.css";
@@ -14,17 +14,22 @@ const SingleUser = (props) => {
         }
     }, [props.photo]);
 
+    const handleCopy = (email) => {
+        navigator.clipboard.writeText(email);
+    }
 
     return (
         <Fragment>
-            <Grid item xl={4} lg={4} md={6} sx={12} >
+            <Grid item xl={4} lg={4} md={4} sm={6} xs={12} className={style.gridItem}>
                 <Card className={style.card}>
                     <img src={photoIsRight ? props.photo : altImg}  className={style.img}/>
 
                     <Typography className={style.name}><body>{props.name}</body></Typography>
                     <Typography className={style.content} textAlign="center">
                         <body>{props.position}</body>
-                        <body>{props.email}</body>
+                        <Tooltip title={props.email}>
+                            <body onClick={() => {handleCopy(props.email)}}>{props.email}</body>
+                        </Tooltip>
                         <body>{props.phone}</body>
                     </Typography>
                 </Card>

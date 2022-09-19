@@ -1,14 +1,12 @@
 import React from "react";
 
-import {Typography} from "@mui/material";
-
 import style from "./MainContent.module.css";
+
 
 const MainContent = (props) => {
     return (
-        <div className={style.container}>
 
-                <Typography color={"white"} textAlign={"center"} >
+        <div className={style.container}>
 
                     <h1 className={style.heading} >
                         Test assignment for front-end developer
@@ -21,8 +19,6 @@ const MainContent = (props) => {
                     </body>
 
                     <button className={style.btn} ><a href="#signUp">Sign Up</a></button>
-                </Typography>
-
 
         </div>
     )

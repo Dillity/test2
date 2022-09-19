@@ -1,36 +1,128 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1170px) {
     .container {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pexels-alexandr-podvalny-1227513.jpeg);
         background-size: cover;
         height: 650px;
-        width: 1024px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+
+    }
+    .heading {
+        display: flex;
+        margin: 0 auto;
+        max-width: 380px;
+        height: 80px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        font-family: "Nunito", serif;
+        font-weight: 400;
+    }
+
+    .content {
+        text-align: center;
+        margin-top: 21px;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: "Nunito", serif;
+        font-weight: 400;
+        max-width: 380px;
     }
 }
 @media screen and (min-width: 360px) and (max-width: 768px) {
     .container {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pexels-alexandr-podvalny-1227513.jpeg);
         background-size: cover;
-        height: 350px;
-        width: 500px;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+
+    }
+    .heading {
+        display: flex;
+        margin: 0 auto;
+        max-width: 380px;
+        height: 80px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        font-family: "Nunito", serif;
+        font-weight: 400;
+    }
+
+    .content {
+        text-align: center;
+        margin-top: 21px;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: "Nunito", serif;
+        font-weight: 400;
+        max-width: 380px;
+    }
+    }
+@media screen and (max-width: 360px) {
+    .container {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pexels-alexandr-podvalny-1227513.jpeg);
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+    }
+    .heading {
+        display: flex;
+        margin: 0 auto;
+        width: 328px;
+        height: 120px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+        font-family: "Nunito", serif;
+        font-weight: 400;
+    }
+
+    .content {
+        text-align: center;
+        margin-top: 21px;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: "Nunito", serif;
+        font-weight: 400;
+        width: 328px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1170px) {
     .container {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pexels-alexandr-podvalny-1227513.jpeg);
         background-size: cover;
         height: 650px;
         width: 1170px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
+      margin: auto;
+        color: white;
     }
 }
 
 .heading {
     margin: 0 auto;
-    width: 380px;
-    height: 80px;
+    max-width: 380px;
+
     text-align: center;
     font-size: 40px;
     line-height: 40px;
@@ -44,7 +136,7 @@
     line-height: 26px;
     font-family: "Nunito", serif;
     font-weight: 400;
-    width: 380px;
+    max-width: 380px;
 }
 
 .btn {
