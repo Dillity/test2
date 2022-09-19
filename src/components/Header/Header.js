@@ -13,7 +13,7 @@ const Header = (props) => {
         <Container className={style.container}>
             <Grid container>
                 <Grid item flexGrow={1} className={style.img}>
-                    <img src={Logo}/>
+                    <img src={Logo} alt="logo"/>
                 </Grid>
                 <Grid item>
                     <button className={style.btn}><a href="#users">Users</a></button>

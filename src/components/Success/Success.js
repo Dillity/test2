@@ -13,7 +13,7 @@ const Success = (props) => {
                 <h1 className={style.successTitle}>User successfully registered</h1>
             </Typography>
 
-                <img src={SuccessImage}/>
+                <img src={SuccessImage} alt="success"/>
 
         </div>
     );

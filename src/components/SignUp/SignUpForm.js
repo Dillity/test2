@@ -2,7 +2,7 @@ import React from "react";
 import {Formik} from "formik";
 import {
     Button,
-    ButtonGroup, CircularProgress, Container,
+    ButtonGroup, CircularProgress,
     FormControlLabel,
     FormLabel,
     Grid,
